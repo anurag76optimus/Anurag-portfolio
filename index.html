@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Anurag Patel — B.Pharm graduate, Clinical Research and Healthcare Analytics portfolio.">
+<title>Anurag Patel | Clinical Research & Healthcare Analytics</title>
+<style>
+:root{--bg:#07111f;--panel:#0e1d30;--panel2:#12243a;--text:#edf5ff;--muted:#a8b8ca;--line:#20364f;--teal:#38d6c4;--blue:#6ba9ff;--gold:#f5c66b}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 80% 0%,#17304a 0,transparent 32%),var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#07111feF;border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;letter-spacing:.4px}.brand span{color:var(--teal)}
+.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--teal)}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);padding:7px 11px;border-radius:8px}
+.hero{padding:92px 0 76px;display:grid;grid-template-columns:1.5fr .8fr;gap:50px;align-items:center}
+.eyebrow{color:var(--teal);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.05;margin:16px 0}.hero h1 span{color:var(--teal)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:690px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.btn{padding:12px 19px;border-radius:10px;font-weight:700;border:1px solid var(--line);display:inline-flex;align-items:center;gap:8px}
+.primary{background:var(--teal);color:#06201f;border-color:var(--teal)}.btn:hover{transform:translateY(-2px)}
+.hero-card{background:linear-gradient(145deg,#15324a,#0d1c2d);border:1px solid #2a4965;border-radius:22px;padding:28px;box-shadow:0 20px 70px #0005}
+.initials{width:76px;height:76px;border-radius:22px;background:linear-gradient(135deg,var(--teal),var(--blue));display:grid;place-items:center;color:#07111f;font-size:1.8rem;font-weight:900;margin-bottom:20px}
+.hero-card h3{margin:0 0 4px}.hero-card p{color:var(--muted);margin:0 0 18px}
+.quick{display:grid;grid-template-columns:1fr 1fr;gap:12px}.quick div{background:#071727;border:1px solid var(--line);padding:13px;border-radius:12px}.quick b{display:block;color:var(--teal);font-size:1.25rem}.quick small{color:var(--muted)}
+section{padding:72px 0;border-top:1px solid #1b2e43}.section-head{margin-bottom:30px}.section-head h2{font-size:2rem;margin:4px 0}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:linear-gradient(145deg,var(--panel),#0a1727);border:1px solid var(--line);padding:23px;border-radius:16px}
+.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}.taglist{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+.tag{font-size:.84rem;color:#d6e8f7;background:#142b42;border:1px solid #28435d;padding:6px 11px;border-radius:30px}
+.timeline{border-left:2px solid #2a5268;padding-left:24px;margin-left:8px}.timeline .card{position:relative;margin-bottom:18px}.timeline .card:before{content:"";position:absolute;left:-32px;top:25px;width:12px;height:12px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 5px #143548}
+.meta{color:var(--teal)!important;font-size:.9rem;margin-bottom:8px!important}
+.project{display:flex;flex-direction:column;min-height:190px}.project .taglist{margin-top:auto;padding-top:16px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:14px}.contact a{background:var(--panel);border:1px solid var(--line);padding:17px;border-radius:12px;color:var(--teal);overflow-wrap:anywhere}
+footer{padding:28px 0;color:var(--muted);text-align:center;border-top:1px solid var(--line);font-size:.9rem}
+.note{font-size:.85rem;color:var(--muted);margin-top:22px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0}.navlinks{display:none;position:absolute;top:72px;left:0;right:0;background:#091626;padding:20px 4%;flex-direction:column;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.menu{display:block}.grid,.contact{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><nav class="wrap">
+  <a class="brand" href="#home">ANURAG<span>.</span></a>
+  <div class="navlinks" id="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+  <button class="menu" onclick="document.getElementById('navlinks').classList.toggle('open')">Menu</button>
+</nav></header>
+<main>
+<div class="wrap hero" id="home">
+  <div>
+    <div class="eyebrow">Clinical Research · Pharma · Healthcare Analytics</div>
+    <h1>Hi, I'm<br><span>Anurag Patel.</span></h1>
+    <p class="lead">B.Pharm graduate with training in Clinical Research and a growing focus on healthcare data analytics and AI-enabled tools. Interested in connecting pharmaceutical knowledge, clinical data and technology to support better healthcare decisions.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore Portfolio ↗</a>
+      <a class="btn" href="mailto:amanurag76@gmail.com">Contact Me</a>
+      <a class="btn" href="https://www.linkedin.com/in/amanuragpatel76/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </div>
+  <aside class="hero-card">
+    <div class="initials">AP</div>
+    <h3>Anurag Patel</h3><p>Bhopal, Madhya Pradesh, India</p>
+    <div class="quick">
+      <div><b>B.Pharm</b><small>Technocrats Institute of Technology</small></div>
+      <div><b>8 Months</b><small>Clinical Research Diploma</small></div>
+      <div><b>1 Month</b><small>FDA Drug Testing Lab Internship</small></div>
+      <div><b>4 Areas</b><small>Pharma · Clinical · Data · AI</small></div>
+    </div>
+  </aside>
+</div>
+
+<section id="about"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Profile</div><h2>About Me</h2><p>A multidisciplinary foundation for healthcare-focused work.</p></div>
+  <div class="card"><p>Bachelor of Pharmacy graduate with an 8-month <strong>Pro Advanced Diploma in Clinical Research</strong> from LLRI – Learning Lab Research Institute. Completed a one-month internship at the Drug Testing Laboratory, FDA, Bhopal, with exposure to pharmaceutical testing, quality analysis and laboratory documentation. My learning spans clinical research, clinical data management, pharmacovigilance, medical coding and healthcare analytics, alongside Python, SQL, Power BI and AI tools.</p></div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Capabilities</div><h2>Skills & Tools</h2><p>Knowledge areas and software listed in my resume.</p></div>
+  <div class="grid">
+    <article class="card"><h3>Clinical Research</h3><p>Clinical trial documentation, ICH-GCP, trial processes and essential clinical research concepts.</p><div class="taglist"><span class="tag">ICH-GCP</span><span class="tag">Clinical Trial Documentation</span><span class="tag">Protocols</span></div></article>
+    <article class="card"><h3>Clinical Data Management</h3><p>Foundational knowledge of clinical data workflows, data review and clinical systems.</p><div class="taglist"><span class="tag">CRF / eCRF</span><span class="tag">EDC</span><span class="tag">CTMS</span><span class="tag">Data Validation</span></div></article>
+    <article class="card"><h3>Pharmacovigilance & Medical Coding</h3><p>Drug safety concepts, adverse event terminology and medical classification systems.</p><div class="taglist"><span class="tag">AE / SAE</span><span class="tag">ICSR</span><span class="tag">MedDRA</span><span class="tag">WHO Drug Dictionary</span><span class="tag">ICD-10</span></div></article>
+    <article class="card"><h3>Data Analytics</h3><p>Data preparation, analysis, reporting and dashboard development.</p><div class="taglist"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">MS Excel</span><span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Statistics</span></div></article>
+    <article class="card"><h3>Clinical & Safety Platforms</h3><p>Familiarity with clinical research and safety software ecosystems.</p><div class="taglist"><span class="tag">Argus Safety</span><span class="tag">Oracle Clinical</span><span class="tag">Medidata Rave</span><span class="tag">Veeva Vault</span><span class="tag">SAS</span></div></article>
+    <article class="card"><h3>AI & Research Tools</h3><p>AI-assisted research, productivity and analytical exploration tools.</p><div class="taglist"><span class="tag">ChatGPT</span><span class="tag">Microsoft Copilot</span><span class="tag">Claude</span><span class="tag">Julius AI</span><span class="tag">NotebookLM</span><span class="tag">SciSpace</span><span class="tag">Consensus</span><span class="tag">Elicit</span></div></article>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Practical Exposure</div><h2>Internship Experience</h2></div>
+  <div class="timeline">
+    <article class="card"><h3>Drug Analyst Intern</h3><p class="meta">Drug Testing Laboratory, Food & Drug Administration (FDA), Bhopal · 1 Month</p><p>Performed pharmaceutical laboratory tests including dissolution, assay, weight variation and disintegration. Supported quality analysis and maintained analytical records and documentation in line with applicable GMP practices.</p></article>
+    <article class="card"><h3>Clinical Research Training</h3><p class="meta">LLRI – Learning Lab Research Institute · 8 Months</p><p>Completed the Pro Advanced Diploma in Clinical Research, developing foundational knowledge of clinical research processes, clinical trial documentation, clinical data management and pharmacovigilance.</p></article>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Selected Work</div><h2>Projects & Research</h2><p>Portfolio projects and academic concepts from my resume.</p></div>
+  <div class="grid">
+    <article class="card project"><h3>Healthcare Sales Dashboard</h3><p>Interactive Power BI dashboard concept to review sales, revenue, regional performance and key performance indicators.</p><div class="taglist"><span class="tag">Power BI</span><span class="tag">Healthcare Analytics</span><span class="tag">KPIs</span></div></article>
+    <article class="card project"><h3>Monthly Sales Trend Analysis</h3><p>Sales data cleaning and analysis using Python, SQL and Excel, with trend analysis and forecasting exploration.</p><div class="taglist"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Excel</span></div></article>
+    <article class="card project"><h3>Healthcare Data Analysis</h3><p>Exploratory analysis of healthcare datasets and dashboard-based presentation of patient insights.</p><div class="taglist"><span class="tag">EDA</span><span class="tag">Data Visualization</span><span class="tag">Healthcare</span></div></article>
+    <article class="card project"><h3>Omega-3 & Neurodegeneration Research</h3><p>Academic research review exploring omega-3 fatty acids, neuroinflammation and their potential relationship with neurodegenerative diseases.</p><div class="taglist"><span class="tag">Pharmaceutical Research</span><span class="tag">Neuroinflammation</span></div></article>
+    <article class="card project"><h3>D-Memantine Tablet</h3><p>Academic drug-discovery concept focused on a memantine-based approach for Alzheimer's disease.</p><div class="taglist"><span class="tag">Drug Discovery</span><span class="tag">Pharmaceutics</span></div></article>
+    <article class="card project"><h3>VitalGuard Smart-Patch</h3><p>Healthcare innovation concept for a smart patch focused on heart-attack detection.</p><div class="taglist"><span class="tag">Digital Health</span><span class="tag">Healthcare Innovation</span></div></article>
+  </div>
+  <p class="note">Project descriptions are concise portfolio summaries. Add verified GitHub repositories, dashboard screenshots or published links to make each project independently viewable.</p>
+</div></section>
+
+<section id="education"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Academic Background</div><h2>Education & Certifications</h2></div>
+  <div class="grid">
+    <article class="card"><h3>Bachelor of Pharmacy (B.Pharm)</h3><p class="meta">Technocrats Institute of Technology, Bhopal · RGPV · May 2026</p><p>Undergraduate foundation in pharmaceutical sciences.</p></article>
+    <article class="card"><h3>Pro Advanced Diploma in Clinical Research</h3><p class="meta">LLRI – Learning Lab Research Institute · 8 Months</p><p>Professional training in clinical research concepts and related workflows.</p></article>
+    <article class="card"><h3>Certifications & Training</h3><p>Data Analytics · Drug Analyst · Python Programming · AI Tools Mastery · Clinical Research</p></article>
+    <article class="card"><h3>Professional Interests</h3><p>Clinical Research · Clinical Data Management · Pharmacovigilance · Medical Coding · Medical Writing · Healthcare Analytics · Artificial Intelligence</p></article>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Let's Connect</div><h2>Contact</h2><p>Open to entry-level opportunities and meaningful projects across pharma, clinical research and healthcare analytics.</p></div>
+  <div class="contact">
+    <a href="mailto:amanurag76@gmail.com">✉ amanurag76@gmail.com</a>
+    <a href="tel:+917697718974">☎ +91 76977 18974</a>
+    <a href="https://www.linkedin.com/in/amanuragpatel76/" target="_blank" rel="noopener">↗ LinkedIn Profile</a>
+    <a href="https://github.com/anurag76optimus" target="_blank" rel="noopener">↗ GitHub Portfolio</a>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Anurag Patel · Built with HTML, CSS & JavaScript</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navlinks').classList.remove('open')));</script>
+</body>
+</html>
